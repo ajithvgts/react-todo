@@ -1,0 +1,15 @@
+.todo_item {
+  height: 64px;
+}
+
+.todo_item:hover .todo_item_action {
+  display: flex !important;
+}
+
+.todo_item[data-completed="true"] .todo_item_title {
+  text-decoration: line-through;
+}
+
+.todo_item[data-completed="true"] .todo_item_complete_btn {
+  display: none;
+}
